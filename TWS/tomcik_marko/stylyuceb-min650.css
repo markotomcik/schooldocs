@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1,
+h2 {
+    font-variant: small-caps;
+    background-color: black;
+    color: white;
+}
+
+h3,
+h4 {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: darkgreen;
+    color: white;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+section {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+section h2 {
+    margin: 0px 0px;
+    padding: 10px;
+}
+
+section h3 {
+    margin: 10px;
+}
+
+aside {
+    background-color: darkgreen;
+    display: flex;
+    padding: 10px;
+}
+
+aside div {
+    border: 1px solid white;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+    width: 120px;
+    height: 100px;
+    display: inline-block;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}

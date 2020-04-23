@@ -1,0 +1,3 @@
+chlieb 0.85
+maslo 1.00
+syr 4.35
