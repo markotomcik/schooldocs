@@ -3,12 +3,12 @@ import tkinter
 velkost=20
 
 def pohybuj_loptickou():
-    for i in range(10):
+    for i in range(380):
         x=i
         y=x
         platno.coords(lopticka,x,y,x+velkost,y+velkost)
         platno.update()
-        platno.after(100)
+        platno.after(10)
         
 okno=tkinter.Tk()
 okno.title("Pohyb")    
