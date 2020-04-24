@@ -4,9 +4,15 @@ velkost=20
 
 def pohybuj_loptickou():
     for i in range(10):
-       platno.move(lopticka,-10,0)
+       platno.move(lopticka,0,10)
+       print(platno.coords(lopticka)) 
        platno.update()
        platno.after(100)
+    for i in range(10):
+       platno.move(lopticka,0,-10)
+       print(platno.coords(lopticka)) 
+       platno.update()
+       platno.after(500)
         
 okno=tkinter.Tk()
 okno.title("Pohyb")    
