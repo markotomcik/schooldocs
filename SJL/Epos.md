@@ -1,4 +1,4 @@
-Epos
+# Epos
 
 **Epos** (z gréc. epos – znamená reč, slovo) je základný veršovaný žáner veľkej epiky. Východiskom pre jeho vznik boli staroveké mýty.
 
@@ -55,7 +55,7 @@ Epos
    - tematicky čerpal zo starých povestí a vychádzal zo skutočných dejinných udalostí
    - kompozíciou sa môže líšiť od hrdinských eposov
    - je typický pre obdobie renesancie a klasicizmu 
-   - (napr. J. Hollý: Svatopluk, Sláv)
+   - napr. J. Hollý: Svatopluk, Sláv
 
 3. **idylický epos**
    - viaže sa na udalosti z dedinského prostredia, je blízky prírode
@@ -71,12 +71,10 @@ Epos
 6. **duchovný epos**
    - námety čerpal z Biblie a slúžil potrebám náboženstva
    - bol prostriedkom na vyslovenie aktuálnych dobových názorov
-
-(napr. John Milton: Stratený raj)
+   - napr. John Milton: Stratený raj
 
 7. **moderný epos**
    - týmto názvom sa označujú veľké epické skladby od čias romantizmu
    - zobrazujú osobné zážitky
    - epická literatúra vstrebáva lyrické prvky, a tak vznikajú lyricko-epické skladby
-
-(napr. J. Botto: Smrť Jánošíkova, A. Sládkovič: Detvan, P. O. Hviezdoslav: Hájnikova žena). 
+   - napr. J. Botto: Smrť Jánošíkova, A. Sládkovič: Detvan, P. O. Hviezdoslav: Hájnikova žena
