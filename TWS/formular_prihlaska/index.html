@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prihláška</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <form id="form">
+        <fieldset>
+            <legend>Osobné údaje</legend>
+            <label for="firstname">Meno:</label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Priezvisko:</label>
+            <input type="text" id="lastname" name="lastname"><br>
+            <label for="phon">Mobil:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+421903123456"><br>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="mail" placeholder="janko.mrkvicka@infovek.sk"><br>
+            <label for="age">Vek:</label>
+            <select id="age" name="age">
+                <option value="18-25">0 - 18</option>
+                <option value="18-25">18 - 25</option>
+                <option value="18-25">25 - 65</option>
+                <option value="18-25">65 &lt;</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <div>
+                Prevádzka:
+                <input type="radio" id="ba" name="shop" value="ba">
+                <label for="ba">Bratislava</label>
+                <input type="radio" id="bb" name="shop" value="bb">
+                <label for="bb">Banská Bystrica</label>
+            </div>
+            <label for="edu">Vzdelanie:</label>
+            <textarea id="edu" name="edu"></textarea><br>
+            <label for="practice">Prax:</label>
+            <textarea id="practice" name="practice" rows="5"></textarea><br>
+            <label for="pos">Pozícia:</label>
+            <select id="pos" name="pos">
+                <option value="k">kuchár</option>
+                <option value="p">pekár</option>
+                <option value="P">prezident</option>
+            </select>
+            <div>
+                Jazyky:<br>
+                <input type="checkbox" id="en" name="lang" value="en">
+                <label for="en">anglický</label><br>
+                <input type="checkbox" id="de" name="lang" value="de">
+                <label for="de">nemencký</label><br>
+                <input type="checkbox" id="it" name="lang" value="it">
+                <label for="it">taliansky</label><br>
+                <input type="checkbox" id="sp" name="lang" value="sp">
+                <label for="sp">španielsky</label><br>
+                <input type="checkbox" id="hu" name="lang" value="hu">
+                <label for="hu">maďarský</label>
+            </div>
+        </fieldset>
+        <label for="gdpr">Súhlasím so spracovaním osobných údajov</label>
+        <input type="checkbox" id="yes" name="gdpr" value="yes"><br>
+        <input type="submit" value="Odošli">
+        <button type="button" onclick="Remove('form')">Zmaž</button>
+    </form>
+
+    <script>
+        function Remove(form_id) {
+            document.getElementById(form_id).reset();
+            // document.getElementById(form_id).parentNode.sremoveChild(f);
+        }
+    </script>
+
+</body>
+
+</html>
