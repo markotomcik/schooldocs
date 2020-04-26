@@ -2,8 +2,8 @@
 
 Súbory so školskou prácou
 
-## To do
+## Predmety
 
-- [ ] [SJL](SJL/TODO.md)
+- [ ] [SJL](./SJL/TODO.md)
 - [ ] [ELM](ELM/TODO.md)
 - [ ] [MAT](MAT/TODO.md)
