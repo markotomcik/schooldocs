@@ -8,8 +8,8 @@ Mail: sefka.marta@gmail.com
 
 - [ ] Poznámky
   - [x] Spracovať poznámky z mailu
-    - Súbory na spracovanie: [ČASOMERNÝ  VERŠOVÝ  SYSTÉM.docx](ČASOMERNÝ  VERŠOVÝ  SYSTÉM.docx), [EPOS.docx](EPOS.docx), [DRUHY  EPOSOV.docx](DRUHY  EPOSOV.docx)
-    - Vypracovanie: [Časomerný veršový systém.md](Časomerný veršový systém.md), [Epos.md](Epos.md)
+    - Súbory na spracovanie: [ČASOMERNÝ  VERŠOVÝ  SYSTÉM.docx](ČASOMERNÝ%20%20VERŠOVÝ%20%20SYSTÉM.docx), [EPOS.docx](EPOS.docx), [DRUHY  EPOSOV.docx](DRUHY%20%20EPOSOV.docx)
+    - Vypracovanie: [Časomerný veršový systém.md](Časomerný%20veršový%20systém.md), [Epos.md](Epos.md)
   - [ ] Spracovať poznámky zo zošita
 - [ ] Urobiť myšlienkový rozbor veršov z Maríny
   - Termín: Pondelok 27. 04. 2020 21.00
