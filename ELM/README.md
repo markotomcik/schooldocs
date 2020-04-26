@@ -4,7 +4,7 @@ Vyučujúci: Peter Krajňák
 
 Mail: krajnak.peter123@gmail.com
 
-Pokyny: [Pokyny%2015.4.2020%20ELE,%20ELM.docx]
+Pokyny: [Pokyny z 15.4.2020 ELE, ELM.docx](Pokyny%20z%2015.4.2020%20ELE,%20ELM.docx)
 
 ## To do
 
