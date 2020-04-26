@@ -25,7 +25,7 @@ Vyučujúci: Terézia Petreková
 
 - [94671873_225059355598746_5676347306606067712_n.jpg](94671873_225059355598746_5676347306606067712_n.jpg)
 -  [Z18_Pr.1_riesenie.doc](Z18_Pr.1_riesenie.doc)
-- [Z12 oprava.doc](Z12 oprava.doc)
+- [Z12 oprava.doc](Z12%20oprava.doc)
 - [z12_vypracovanie.png](z12_vypracovanie.PNG)
 - [z13_vypracovanie.png](z13_vypracovanie.PNG)
 - [vypracovanie_2.png](vypracovanie_2.PNG)
