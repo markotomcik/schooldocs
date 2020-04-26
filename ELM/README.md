@@ -1,9 +1,10 @@
 # Elektrotechnické merania
 
 Vyučujúci: Peter Krajňák
+
 Mail: krajnak.peter123@gmail.com
 
-Pokyny: [Pokyny z 15.4.2020 ELE, ELM.docx](Pokyny z 15.4.2020 ELE, ELM.docx)
+Pokyny: [Pokyny z 15.4.2020 ELE, ELM.docx]
 
 ## To do
 
