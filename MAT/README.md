@@ -4,6 +4,7 @@ Vyučujúci: Terézia Petreková
 
 ## To do
 
+- [ ] :globe_with_meridians: Z19 – Ďalšie vzťahy medzi GF úlohy (27.4.)
 - [x] :globe_with_meridians: Z18 – Ďalšie vzťahy medzi GF (dvojnásobný uhol)
 - [ ] :globe_with_meridians: Z17 – Vzťahy medzi goniometrickými funkciami
 - [ ] :globe_with_meridians: Z16 – Ďalšie goniometrické rovnice (KR)
