@@ -14,15 +14,15 @@
         <fieldset>
             <legend>Osobné údaje</legend>
             <label for="firstname">Meno:</label>
-            <input type="text" id="firstname" name="firstname"><br>
+            <input type="text" id="firstname" name="firstname" size="21" required><br>
             <label for="lastname">Priezvisko:</label>
-            <input type="text" id="lastname" name="lastname"><br>
+            <input type="text" id="lastname" name="lastname" size="21" required><br>
             <label for="phon">Mobil:</label>
-            <input type="tel" id="phone" name="phone" placeholder="+421903123456"><br>
+            <input type="tel" id="phone" name="phone" size="21" placeholder="+421903123456" required><br>
             <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="mail" placeholder="janko.mrkvicka@infovek.sk"><br>
+            <input type="email" id="mail" name="mail" size="21" placeholder="janko.mrkvicka@infovek.sk" required><br>
             <label for="age">Vek:</label>
-            <select id="age" name="age">
+            <select id="age" name="age" required>
                 <option value="18-25">0 - 18</option>
                 <option value="18-25">18 - 25</option>
                 <option value="18-25">25 - 65</option>
@@ -32,17 +32,17 @@
         <fieldset>
             <div>
                 Prevádzka:
-                <input type="radio" id="ba" name="shop" value="ba">
+                <input type="radio" id="ba" name="shop" value="ba" required>
                 <label for="ba">Bratislava</label>
-                <input type="radio" id="bb" name="shop" value="bb">
+                <input type="radio" id="bb" name="shop" value="bb" required>
                 <label for="bb">Banská Bystrica</label>
             </div>
             <label for="edu">Vzdelanie:</label>
-            <textarea id="edu" name="edu"></textarea><br>
+            <textarea id="edu" name="edu" required></textarea><br>
             <label for="practice">Prax:</label>
-            <textarea id="practice" name="practice" rows="5"></textarea><br>
+            <textarea id="practice" name="practice" rows="5" required></textarea><br>
             <label for="pos">Pozícia:</label>
-            <select id="pos" name="pos">
+            <select id="pos" name="pos" required>
                 <option value="k">kuchár</option>
                 <option value="p">pekár</option>
                 <option value="P">prezident</option>
@@ -62,7 +62,7 @@
             </div>
         </fieldset>
         <label for="gdpr">Súhlasím so spracovaním osobných údajov</label>
-        <input type="checkbox" id="yes" name="gdpr" value="yes"><br>
+        <input type="checkbox" id="yes" name="gdpr" value="yes" required><br>
         <input type="submit" value="Odošli">
         <button type="button" onclick="Remove('form')">Zmaž</button>
     </form>
