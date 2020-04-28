@@ -4,8 +4,8 @@ Vyučujúci: Terézia Petreková
 
 ## To do
 
-- [ ] :globe_with_meridians: Z20 – Goniometrické rovnice - opakovanie
-  - Vypracovanie: N/A
+- [x] :globe_with_meridians: Z20 – Goniometrické rovnice - opakovanie
+  - Vypracovanie: [Z20_Tomcik.jpg](Z20_Tomcik.jpg)
 - [x] :globe_with_meridians: Z19 – Ďalšie vzťahy medzi GF úlohy (27.4.)
   - Vypracovanie: [94706673_275591653461541_7657284084351107072_n.jpg](94706673_275591653461541_7657284084351107072_n.jpg)
 - [x] :globe_with_meridians: Z18 – Ďalšie vzťahy medzi GF (dvojnásobný uhol)
