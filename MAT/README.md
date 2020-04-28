@@ -4,15 +4,18 @@ Vyučujúci: Terézia Petreková
 
 ## To do
 
-- [ ] :globe_with_meridians: Z19 – Ďalšie vzťahy medzi GF úlohy (27.4.)
+- [ ] :globe_with_meridians: Z20 – Goniometrické rovnice - opakovanie
+  - Vypracovanie: N/A
+- [x] :globe_with_meridians: Z19 – Ďalšie vzťahy medzi GF úlohy (27.4.)
+  - Vypracovanie: [94706673_275591653461541_7657284084351107072_n.jpg](94706673_275591653461541_7657284084351107072_n.jpg)
 - [x] :globe_with_meridians: Z18 – Ďalšie vzťahy medzi GF (dvojnásobný uhol)
-- [ ] :globe_with_meridians: Z17 – Vzťahy medzi goniometrickými funkciami
-- [ ] :globe_with_meridians: Z16 – Ďalšie goniometrické rovnice (KR)
-- [ ] :globe_with_meridians: Z15 – Ďalšie goniometrické rovnice (KR)
+- [ ] :globe_with_meridians: Z17 – Vzťahy medzi goniometrickými funkciami – nevypracované
+- [ ] :globe_with_meridians: Z16 – Ďalšie goniometrické rovnice (KR) – nevypracované
+- [ ] :globe_with_meridians: Z15 – Ďalšie goniometrické rovnice (KR) – nevypracované
 - [x] :globe_with_meridians: Z14 – Goniometrické rovnice test
 - [x] :globe_with_meridians: Z13 – Goniometrické rovnice na intervale
 - [x] :globe_with_meridians: Z12 – Goniometrické rovnice na intervale
-- [ ] :globe_with_meridians: Z11 – GR na intervale
+- [ ] :globe_with_meridians: Z11 – GR na intervale – nevypracované
 - [x] :globe_with_meridians: Z10 – Goniometrické rovnice (substitúcia)
 - [x] :globe_with_meridians: Z9 – Jednoduché goniometrické rovnice
 - [x] :globe_with_meridians: Z8 – Jednoduché goniometrické rovnice úlohy
