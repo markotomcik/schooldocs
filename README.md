@@ -1,5 +1,3 @@
-
-
 # schooldocs
 
 Súbory so školskou prácou
@@ -10,33 +8,22 @@ Pracovný denník: OneDrive [PDF](https://1drv.ms/b/s!AnTG-gfMW26mozP1otz6SyiYY2
 
 ## Predmety
 
-- [ ] ADK
-
-- [ ] ANJ
-
-- [ ] ELE
-
+- [ ] [ADK](ADK/README.md)
+- [ ] [ANJ](ANJ/README.md)
+- [ ] [ELE](ELE/README.md)
 - [ ] [ELM](ELM/README.md)
-
-- [ ] ETV
-
-- [ ] FYZ
-
-- [ ] IDS
-
+- [ ] [ETV](ETV/README.md)
+- [ ] [FYZ](FYZ/README.md)
+- [ ] [IDS](IDS/README.md)
 - [x] [MAT](MAT/README.md)
-
-- [ ] OBN
-
-- [ ] PRG
-
+- [ ] [OBN](OBN/README.md)
+- [ ] [PRG](PRG/README.md)
 - [ ] [SJL](SJL/README.md)
-
-- [ ] SST
-
-- [ ] TWS
-
-- [ ] ZAV
+- [ ] [SGPC](SGPC/README.md)
+- [ ] [SST](SST/README.md)
+- [ ] [TEV](TEV/README.md)
+- [ ] [TWS](TWS/README.md)
+- [ ] [ZAV](ZAV/README.md)
 
 ## Projekty
 
