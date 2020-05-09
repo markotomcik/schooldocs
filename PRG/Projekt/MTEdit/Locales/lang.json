@@ -1,0 +1,15 @@
+{
+    "languages": [
+        "en",
+        "sk"
+    ],
+    "default": "en",
+    "en": {
+        "name": "English",
+        "file": "en.json"
+    },
+    "sk": {
+        "name": "Slovensk\u00fd",
+        "file": "sk.json"
+    }
+}
