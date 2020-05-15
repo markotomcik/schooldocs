@@ -3,7 +3,7 @@
         "en",
         "sk"
     ],
-    "default": "en",
+    "default": "sk",
     "en": {
         "name": "English",
         "file": "en.json"

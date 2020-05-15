@@ -4,8 +4,8 @@ from PIL import Image, ImageTk
 from tkinter import simpledialog, colorchooser, messagebox, filedialog
 
 CANVAS_HEIGHT = 750
-CANVAS_WIDTH = 1250 
-CANVAS_COLOR = "white"
+CANVAS_WIDTH = 1250
+CANVAS_COLOR = "#ffffff"
 
 MIN_SIZE = 1
 MAX_SIZE = 10

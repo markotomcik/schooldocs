@@ -107,17 +107,24 @@
             background-color: #FF5D73;
         }
         
+        @keyframes h1anim {
+            0% {
+                font-size: 4.5rem;
+            }
+            100% {
+                font-size: 3rem;
+            }
+        }
+        
         h1 {
             margin: 0;
             padding: 10px;
-            font-size: 4.5rem;
             font-weight: 100;
             color: black;
-            transition: 0.2s;
-        }
-        
-        main div {
-            height: 100px;
+            animation-name: h1anim;
+            animation-duration: 1s;
+            animation-delay: 5s;
+            animation-fill-mode: both;
         }
         
         div#content {
@@ -146,6 +153,27 @@
             background-color: yellow;
         }
         
+        #options {
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        select {
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        button {
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(118, 118, 118);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
         table {
             width: 100%;
             border-spacing: 10px;
@@ -165,6 +193,15 @@
         tbody {
             border-radius: 10px;
             box-shadow: 3px 3px 10px -3px black;
+        }
+        
+        input[type=checkbox] {
+            display: none;
+        }
+        
+        .info {
+            color: #494949;
+            font-size: smaller;
         }
     </style>
 
@@ -198,7 +235,30 @@
         </nav>
         <main id="myP">
             <h1>Kontrolný opis</h1>
+            <div id="options">
+                <div>
+                    <label for="classroom">Trieda:</label>
+                    <select id="classroom" name="classroom">
+                        <option value="2d">2.D</option>
+                        <option value="2e">2.E</option>
+                    </select>
+                    <label for="group">Skupina:</label>
+                    <select id="group" name="group">
+                        <option value="1">1. skupina</option>
+                        <option value="2">2. skupina</option>
+                    </select>
+                    <label for="ko">Opis:</label>
+                    <select id="ko" name="ko">
+                        <option value="15454">Veľké písmená</option>
+                        <option value="2545">Čiarky</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" onclick="document.location = '#'">Vytvoriť nový</button>
+                </div>
+            </div>
             <div id="content">
+                <!--dynamic-->
                 <table>
                     <thead>
                         <tr>
@@ -222,9 +282,10 @@
                             </td>
                         </tr>
 
-                        <tr class="pokus">
-                            <td colspan="5">Niečo</td>
+                        <tr class="info" id="abc">
+                            <td colspan="5">(WIP)<br>Hrubé údery<br>počet chýb<br>čisté údery<br>čisté údery za min.<br>známka za čisté údery<br>skutočné %chýb<br>%chýb<br>skutočná nepresnosť<br>nepresnosť<br>známka za presnosť</td>
                         </tr>
+
 
                         <tr>
                             <td>2020-03-27</td>
@@ -397,10 +458,10 @@
     </section>
 
     <script>
-        $(document).ready(function() {
-            $('[data-toggle="toggle"]').change(function() {
-                $(this).parents().next('.hide').toggle();
-            });
+        $('#abc').toggle('hide');
+
+        $('#vstup').change(function() {
+            $('#abc').toggle();
         });
     </script>
 
