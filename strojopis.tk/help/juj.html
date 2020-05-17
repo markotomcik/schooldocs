@@ -1,0 +1,83 @@
+<style>
+    .display {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        width: 32px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        position: relative;
+    }
+    
+    .display:last-child {
+        border-right: none;
+    }
+    
+    .wrap {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        position: relative;
+        display: flex;
+    }
+    
+    .input {
+        position: absolute;
+        border: none;
+        font-size: 32px;
+        text-align: center;
+        background-color: transparent;
+        outline: none;
+    }
+</style>
+
+<body>
+    <div className="wrap" onClick={this.handleClick}>
+        <input value="" ref={this.input} onFocus={this.handleFocus} onBlur={this.handleBlur} className="input" style={{ width: "32px", top: "0px", bottom: "0px", left: "0px", }} />
+    </div>
+
+</body>
+
+<script>
+    const CODE_LENGTH = new Array(6).fill(0);
+
+    class App extends Component {
+        state = {
+            value: "",
+            focused: false,
+        };
+        handleClick = () => {
+            this.input.current.focus();
+        };
+        handleFocus = () => {
+            this.setState({
+                focused: true
+            });
+        };
+        handleBlur = () => {
+            this.setState({
+                focused: false,
+            });
+        };
+        render() {
+            const {
+                value
+            } = this.state;
+            const values = value.split("");
+            return ('<
+                div className = "App" >
+                <
+                div className = "wrap" > {
+                    CODE_LENGTH.map((v, index) => {
+                        return <div className = "display" > {
+                            values[index]
+                        } < /div>;
+                    })
+                } <
+                /div> < /
+                div >
+            );
+        }
+    }
+    export default App;
+</script>

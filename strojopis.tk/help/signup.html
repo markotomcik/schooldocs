@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>ADK | Registrácia</title>
+
+    <style>
+        body {
+            background: #494949;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        /*
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+        
+        form>a {
+            display: block;
+        }
+        
+        input {
+            display: block;
+            text-align: center;
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(118, 118, 118);
+            padding: 5px;
+            margin: 10px 0 10px 0;
+            border-radius: 5px;
+        }*/
+        
+        form {
+            width: 300px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        form h1 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: 2rem;
+        }
+        
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(118, 118, 118);
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+            transition: 0.25s;
+        }
+        
+        form input[type="text"]:focus,
+        form input[type="email"]:focus,
+        form input[type="password"]:focus {
+            width: 280px;
+        }
+        
+        form input[type="submit"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #FF5D73;
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 5px;
+            transition: 0.25s;
+            cursor: pointer;
+        }
+        
+        a {
+            font-weight: 100;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        form input.error {
+            border-color: #cc2e2e;
+        }
+        
+        div.error {
+            color: #cc2e2e;
+            font-size: 13.3333333px;
+        }
+        
+        a.error {
+            color: #cc2e2e;
+            font-size: 13.3333333px;
+        }
+        
+        form input[type="submit"]:hover {
+            background: #FF5D73;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        a {
+            color: white;
+            font-size: 15px;
+        }
+        
+        #linky {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://strojopis.tk/postdata.php?from=%2Fsignup.php&amp;to=%2F&amp;else=%2Fsignup.php%3Ferror%3D" method="POST">
+        <h1>Registrácia</h1>
+        <input type="hidden" name="id" value="" required>
+        <input type="text" name="firstname" id="firstname" placeholder="Meno" required>
+        <input type="text" name="surname" id="surname" placeholder="Priezvisko" required>
+        <input type="email" name="email" id="email" placeholder="E-mailová adresa" required>
+        <input type="password" name="passwd" id="passwd" placeholder="Heslo" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Musí obsahovať aspoň jedno číslo, jedno malé a jedno veľké písmeno a musí byť dlhé minimálne 8 znakov" required>
+        <input type="password" name="confirmpasswd" id="confirmpasswd" placeholder="Potvrdiť" required>
+        <input type="password" name="code" id="code" placeholder="Kód" maxlength="6" required>
+        <input type="submit" value="Vytvoriť účet">
+        <a href="signin.html">Prihlásiť sa</a>
+    </form>
+</body>
+
+</html>
